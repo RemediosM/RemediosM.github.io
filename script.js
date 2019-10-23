@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'http://desolate-chamber-86714.herokuapp.com/v1/task/';
+  const apiRoot = 'https://desolate-chamber-86714.herokuapp.com/v1/task/';
   const trelloApiRoot = 'http://localhost:8080/v1/trello/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
